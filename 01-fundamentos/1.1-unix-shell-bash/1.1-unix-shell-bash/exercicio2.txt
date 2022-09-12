@@ -1,0 +1,72 @@
+#Exercício 1
+
+"Abrindo diretorio unix_tests
+cd unix_tests
+"Baixando arquivo countries.txt"
+curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+
+#Exercício 2
+
+"Mostrando o conteudo do arquivo countries.txt"
+cat countries.txt
+
+#Exercício 3
+
+"Mostrando o conteudo do arquivo countries.txt, use /Zambia para fazer a pesquisa, aperte n para a proxima ocorrencia e p para a anterior"
+less countries.txt
+
+# Exercicio 4
+# Utilizar teclas n para proximo(next) e p para anterior(previous) para navegar
+
+#Exercicio 5
+
+"Buscando por brazil no countries.txt"
+grep "brazil"
+
+#Exercicio 6
+
+"Buscando brazil (lowcase) no arquivo countries.txt"
+grep "brazil" countries.txt || echo "Não encontrado"
+
+# Criando arquivo que sera usado para os proximos exercicios
+cat > phrases.txt
+
+#Exercicio 7
+
+"Buscando frases que nao contenham a palavra fox"
+grep -v "fox" phrases
+
+#Exercicio 8
+
+"Contando o numero de palavra do arquivo phrases.txt"
+wc -w phrases.txt
+
+#Exercicio 9
+
+"Contando o numero de linha do arquivo phrases.txt"
+wc -l phrases
+
+#Exercicio 10
+
+"Criando arquivo empty.tbt e empty.pdf"
+touch empty.tbt empty.pdf
+
+#Exercício 11
+
+"Lista todos os arquivo do diretorio unix_tests"
+ls -a
+
+#Exercício 12
+
+"Lista todos os arquivo que termina com .txt"
+ls -a *.txt
+
+#Exercício 13
+
+"Lista todos os arquivo que termina com tbt ou .txt"
+ls -a *.tbt ou *.pdf
+
+#Exercício 14
+
+"acesse o manual do comando ls"
+man ls

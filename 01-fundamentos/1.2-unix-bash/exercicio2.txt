@@ -1,0 +1,18 @@
+#Exercício 1
+
+"Navega ate pasta unix_tests"
+cd unix_tests
+
+#Exercício 2
+
+" Lista permisoes de arquivos com ls -l"
+ls -l
+
+#Exercício 3
+
+"Mude a permisão do arquivos bunch_of_thing.txt para que todos os usuario possam ter acessso a leitura e escrita"
+chmod a+rw bunch_of_things.txt
+
+#Exercício 4
+
+"Tire a permissão
