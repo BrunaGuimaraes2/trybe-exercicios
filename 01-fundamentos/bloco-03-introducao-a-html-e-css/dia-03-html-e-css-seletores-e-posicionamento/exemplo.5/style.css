@@ -1,0 +1,60 @@
+ol {
+  background: yellow;
+}
+
+.par {
+  color: green;
+}
+
+.impa {
+  text-transform: capitalize;
+}
+
+h1,
+h2 {
+  color: red;
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+.i {
+  font-weight: bold;
+}
+
+.python,
+.java,
+.js {
+  color: blue;
+}
+
+.java {
+  background: rgb(228, 43, 73);
+}
+
+.link:hover {
+  font-weight: bold;
+}
+
+.laranja:hover {
+  color: orangered;
+}
+
+.verde:hover {
+  color: green;
+}
+
+.preta:hover {
+  color: black;
+}
+
+.amarela:hover {
+  color: yellow;
+}
+
+.trybe:hover {
+  color: greenyellow;
+}
