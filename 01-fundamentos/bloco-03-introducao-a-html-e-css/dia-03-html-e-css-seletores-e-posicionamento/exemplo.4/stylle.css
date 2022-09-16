@@ -1,0 +1,24 @@
+.cor-p:hover {
+  border: 5px solid darkcyan;
+}
+
+.cor-s:hover {
+  border: 5px solid forestgreen;
+}
+
+.cor-c:hover {
+  border: 5px solid indianred;
+  font-size: 20px;
+}
+
+.cor-e:hover {
+  border: 5px solid aqua;
+}
+
+.cor-clara:hover {
+  border: 5px solid gold;
+}
+
+h3 {
+  font-style: italic;
+}
