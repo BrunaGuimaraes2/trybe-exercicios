@@ -4,13 +4,14 @@ p {
 }
 
 li:hover {
-  background-color: rebeccapurple;
+  background-color: red;
 }
 
 li:active {
-  background-color: aqua;
+  background-color: blueviolet;
 }
 
-ul {
+ul,
+ol {
   list-style: none;
 }
