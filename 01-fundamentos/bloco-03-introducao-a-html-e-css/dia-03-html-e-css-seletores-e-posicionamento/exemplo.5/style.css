@@ -1,18 +1,21 @@
 ol {
-  background: yellow;
+  background-color: yellow;
+}
+.verde {
+  color: rgb(5, 105, 5);
 }
 
-.par {
-  color: green;
-}
-
-.impa {
-  text-transform: capitalize;
+.font {
+  text-transform: uppercase;
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: red;
+}
+
+h1 {
   font-size: 40px;
   border: 1px solid black;
 }
@@ -21,40 +24,34 @@ li {
   font-size: 20px;
 }
 
-.i {
-  font-weight: bold;
+em {
+  font-weight: 600;
 }
 
-.python,
-.java,
-.js {
+.azul {
   color: blue;
 }
 
-.java {
-  background: rgb(228, 43, 73);
-}
-
-.link:hover {
-  font-weight: bold;
+.li {
+  background-color: palevioletred;
 }
 
 .laranja:hover {
+  font-weight: 600;
   color: orangered;
 }
 
-.verde:hover {
+.green:hover {
   color: green;
+  font-weight: 700;
 }
 
-.preta:hover {
+.preto:hover {
   color: black;
+  font-weight: 600;
 }
 
-.amarela:hover {
+.amarelo:hover {
   color: yellow;
-}
-
-.trybe:hover {
-  color: greenyellow;
+  font-weight: 600;
 }
