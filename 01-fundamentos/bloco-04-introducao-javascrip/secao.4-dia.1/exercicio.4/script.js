@@ -1,18 +1,17 @@
-let aluno = "lista";
+const currentHour = 20;
 
-switch (aluno) {
-  case "aprovado":
-    console.log("Parabéns, você foi aprovada(0)!");
-    break;
+let message = " ";
 
-  case "lista":
-    console.log("Você está na nossa lista de espera");
-    break;
-
-  case "reprovado":
-    console.log("Você foi reprovado(0)");
-    break;
-
-  default:
-    console.log("Informação incorreta");
+if (currentHour >= 22) {
+  message = "Não deveriamos comer nada, é hora de dormir";
+} else if (currentHour >= 18 && currentHour < 22) {
+  message = "Rango da noite, vamos janta :D";
+} else if (currentHour >= 14 && currentHour < 18) {
+  message = "Vamos fazer um bolo pro café da tarde";
+} else if (currentHour >= 11 && currentHour < 14) {
+  message = "Hora do almoço!!!";
+} else {
+  message = "Hmmm, cheiro de cafe recem-passado";
 }
+
+console.log(message);
