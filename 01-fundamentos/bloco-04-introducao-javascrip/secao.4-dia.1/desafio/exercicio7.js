@@ -9,7 +9,9 @@
 
 const porcentagem = 60;
 
-if (porcentagem >= 90) {
+if (porcentagem < 0 || porcentagem > 100) {
+  console.log("Erro, nota incorreta!");
+} else if (porcentagem >= 90) {
   console.log("A");
 } else if (porcentagem >= 80) {
   console.log("B");
@@ -17,10 +19,8 @@ if (porcentagem >= 90) {
   console.log("C");
 } else if (porcentagem >= 60) {
   console.log("D");
-} else if (porcentagem >= 50) {
-  console.log("E");
 } else if (porcentagem < 50) {
-  console.log("F");
+  console.log("E");
 } else {
-  console.log("Nota encerrada");
+  console.log("F");
 }

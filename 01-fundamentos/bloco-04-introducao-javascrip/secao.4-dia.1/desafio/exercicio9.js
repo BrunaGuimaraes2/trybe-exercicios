@@ -2,12 +2,14 @@
 // Caso contrário, ele retorna false.
 // Bonus: use somente um if.
 
-let a = 23;
-let b = 65;
-let c = 97;
+const a = 23;
+const b = 65;
+const c = 97;
+
+let isOdd = false;
 
 if (a % 2 != 0 || b % 2 != 0 || c % 2 != 0) {
-  console.log(true);
-} else {
-  console.log(false);
+  isOdd = true;
 }
+
+console.log(isOdd);

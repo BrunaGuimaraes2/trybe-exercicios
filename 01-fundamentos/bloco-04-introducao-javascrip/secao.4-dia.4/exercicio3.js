@@ -5,6 +5,4 @@ let info = {
   recorrente: "Sim",
 };
 
-for (let prop in info) {
-  console.log(prop);
-}
+console.log(info);

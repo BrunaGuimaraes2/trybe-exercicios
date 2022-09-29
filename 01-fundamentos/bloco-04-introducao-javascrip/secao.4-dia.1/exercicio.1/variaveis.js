@@ -1,5 +1,5 @@
 const myName = "Bruna";
-const birthCity = "Macapá";
+let birthCity = "Macapá";
 let birthYear = 2000;
 
 birthYear = 2030;
